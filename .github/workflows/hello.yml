@@ -8,8 +8,7 @@ jobs:
 
   github-action-job:
   runs-on: ubuntu-latest
-  
-        steps:
+    steps:
           - name: namaskar dosto
             run: echo "hello Friends"
             -name: say hello to user
