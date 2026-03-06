@@ -1,0 +1,24 @@
+name: Hello
+# KAB CHALEGA RUNS ON TRIGGER
+on:
+# PUSH KARNE KE BAD
+  push:
+  # WHICH BRANCH
+    branches: [main]
+    
+jobs:
+#this is the name of job
+  greet:
+  
+
+  # KAHA CHALANA HAI (GIT HUB RUNNERS ON AZURE)
+# THIS IS GITHUB RUNNER , EACH JOBS RUNS ON A RUNNER     
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello swapnil
+        run: echo "Hello Swapnil"
+
+      - name: say hello username
+        run: echo "hello $USER"
+      
+      
